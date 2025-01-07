@@ -35,4 +35,11 @@ npm install
 
 npm run dev
 
+Add .env in ChallengueApiRest , with this files => 
 
+DATABASE_URL="mysql://root:123456@34.138.211.120:3306/grow_analytics_db"
+
+SALT_ROUNDS=10
+
+JWT_SECRET=<your_custom_sign>
+JWT_REFRESH=<your_custom_sign>
