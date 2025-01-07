@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    :root {
+        --color-accent1: 210 19% 98%;
+        --color-bkg: 212 11% 83%;
+        --color-content: 0 0% 0%;
+        --color-bkg-nav: 0 0% 100%;
+        --color-bkg-nav-hover: 0 0% 85%;
+        --color-bkg-card: 0 0% 100%;
+        --color-bkg-invoice: 0 0% 100%;
+    }
+
+    :root[data-theme=dark] {
+        --color-accent1: 198 7% 41%;
+        --color-bkg: 198 7% 22%;
+        --color-content: 0 0% 255%;
+        --color-bkg-nav: 0 0% 0%;
+        --color-bkg-nav-hover: 0 0% 60%;
+        --color-bkg-card: 0 0% 50%;
+        --color-bkg-invoice: 0 0% 85%;
+    }
+
+    :root[data-theme=light] {
+        --color-accent1: 210 19% 98%;
+        --color-bkg: 212 11% 83%;
+        --color-content: 0 0% 0%;
+        --color-bkg-nav: 0 0% 100%;
+        --color-bkg-nav-hover: 0 0% 85%;
+        --color-bkg-card: 0 0% 100%;
+        --color-bkg-invoice: 0 0% 100%;
+    }
+}
