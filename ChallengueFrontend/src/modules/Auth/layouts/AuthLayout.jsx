@@ -1,5 +1,5 @@
 import { Outlet } from "react-router"
-export const AuthLayout = () => {
+const AuthLayout = () => {
     return (
         <div className="min-h-screen flex">
             <div className="hidden lg:block lg:w-1/2 relative">
@@ -10,7 +10,7 @@ export const AuthLayout = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-black/20" />
             </div>
-            <div className="w-full lg:w-1/2 flex items-center justify-center p-8 sm:p-12 lg:p-16">
+            <div className="w-full lg:w-1/2 flex items-center justify-center p-8 sm:p-12 lg:p-16 bg-bkg">
                 <div className="w-full max-w-md space-y-8">
                     <Outlet />
                 </div>
@@ -18,4 +18,6 @@ export const AuthLayout = () => {
         </div>
     )
 }
+
+export default AuthLayout
 

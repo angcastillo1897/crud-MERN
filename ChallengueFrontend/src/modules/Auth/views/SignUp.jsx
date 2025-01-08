@@ -1,13 +1,13 @@
 import { SignUpForm } from "../components/SignUpForm"
 
-export const SignUp = () => {
+const SignUp = () => {
     return (
         <>
             <div className="text-center">
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900">
+                <h2 className="text-3xl font-bold tracking-tight text-content">
                     Crea tu cuenta
                 </h2>
-                <p className="mt-2 text-sm text-gray-600">
+                <p className="mt-2 text-sm text-content">
                     Únete para empezar
                 </p>
             </div>
@@ -15,3 +15,5 @@ export const SignUp = () => {
         </>
     )
 }
+
+export default SignUp

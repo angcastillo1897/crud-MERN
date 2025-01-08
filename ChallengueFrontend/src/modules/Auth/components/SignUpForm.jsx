@@ -176,7 +176,7 @@ return (
             </Button>
         </Form.Item>
 
-        <p className="text-center text-sm text-gray-600">
+        <p className="text-center text-sm text-content">
             Ya tienes una cuenta?{' '}
             <Link to="/" className="text-blue-600 hover:text-blue-500">
                 Ingresar

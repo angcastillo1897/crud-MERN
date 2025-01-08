@@ -6,7 +6,7 @@
 @layer base {
     :root {
         --color-accent1: 210 19% 98%;
-        --color-bkg: 212 11% 83%;
+        --color-bkg: 237 1% 98%;
         --color-content: 0 0% 0%;
         --color-bkg-nav: 0 0% 100%;
         --color-bkg-nav-hover: 0 0% 85%;
@@ -20,13 +20,13 @@
         --color-content: 0 0% 255%;
         --color-bkg-nav: 0 0% 0%;
         --color-bkg-nav-hover: 0 0% 60%;
-        --color-bkg-card: 0 0% 50%;
+        --color-bkg-card: 237 1% 7%;
         --color-bkg-invoice: 0 0% 85%;
     }
 
     :root[data-theme=light] {
         --color-accent1: 210 19% 98%;
-        --color-bkg: 212 11% 83%;
+        --color-bkg: 237 1% 98%;
         --color-content: 0 0% 0%;
         --color-bkg-nav: 0 0% 100%;
         --color-bkg-nav-hover: 0 0% 85%;

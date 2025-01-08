@@ -1,9 +1,10 @@
-
 import { AppRouter } from './router/AppRouter'
-
+import { ProvideDarkTheme } from './components/provideDarkTheme'
 function App() {
   return (
-    <AppRouter />
+    <ProvideDarkTheme>
+      <AppRouter />
+    </ProvideDarkTheme>
   )
 }
 

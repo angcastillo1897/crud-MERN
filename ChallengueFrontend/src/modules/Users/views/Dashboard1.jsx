@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useDeleteUserMutation } from "../usersApiSlice";
 import { EditUserModal } from "../components/EditUserModal";
 
-export const Dashboard1 = () => {
+const Dashboard1 = () => {
     const { isLoadingUsers , error , users,page, total,limit ,refetchUsersByQueryParams, getUsers } = useFetchUsers();
     const { getColumnSearchProps } = useFilterSearchColumns();
     const [sortedInfo, setSortedInfo] = useState({});
@@ -128,3 +128,5 @@ export const Dashboard1 = () => {
         </>
     )
 }
+
+export default Dashboard1

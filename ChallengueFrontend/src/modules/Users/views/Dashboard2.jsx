@@ -8,7 +8,7 @@ import { EditableCell} from "../components/EditableCell";
 import { useDispatch } from "react-redux";
 import { setUserById } from "../usersSlice";
 
-export const Dashboard2 = () => {
+const Dashboard2 = () => {
     const { isLoadingUsers , error , users,page, total,limit ,refetchUsersByQueryParams, getUsers } = useFetchUsers();
     const { getColumnSearchProps } = useFilterSearchColumns();
     const [sortedInfo, setSortedInfo] = useState({});
@@ -177,3 +177,4 @@ export const Dashboard2 = () => {
         </>
     )
 }
+export default Dashboard2;

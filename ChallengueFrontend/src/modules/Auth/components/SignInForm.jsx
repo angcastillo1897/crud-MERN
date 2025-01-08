@@ -61,7 +61,7 @@ export const SignInForm=() => {
             message: title ||'Notification Title',
             description: description ||
                 'This is the content of the notification. This is the content of the notification. This is the content of the notification.',
-            className: 'bg-red-200 text-red-600 border border-red-300',
+            className: 'bg-red-200 text-red-600 dark:bg-black border border-red-300',
         });
     };
 
@@ -107,7 +107,7 @@ export const SignInForm=() => {
             </Button>
         </Form.Item>
 
-        <p className="text-center text-sm text-gray-600">
+        <p className="text-center text-sm text-content">
             Aún no estas registrado?{' '}
             <Link to="register" className="text-blue-600 hover:text-blue-500">
                 Registrate ahora
